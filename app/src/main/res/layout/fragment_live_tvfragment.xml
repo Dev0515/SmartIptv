@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/tool_profile"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        app:popupTheme="@style/AppTheme.PopupOverlay"-->
+<!--        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+
+<!--     <LinearLayout-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="match_parent"-->
+<!--         android:orientation="horizontal">-->
+
+<!--   -->
+<!--     </LinearLayout>-->
+<!--&lt;!&ndash;        <androidx.appcompat.widget.SearchView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/searchView1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/SearchViewStyle"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="@color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_below="@+id/tool_profile">&ndash;&gt;-->
+<!--&lt;!&ndash;        </androidx.appcompat.widget.SearchView>&ndash;&gt;-->
+
+<!--&lt;!&ndash;      <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;          android:id="@+id/aeditpto"&ndash;&gt;-->
+<!--&lt;!&ndash;          android:layout_width="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;          android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;          android:layout_gravity="right"&ndash;&gt;-->
+<!--&lt;!&ndash;          android:layout_marginRight="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;          android:tint="@color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;          app:srcCompat="@drawable/ic_search_black_24dp" />&ndash;&gt;-->
+
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tootextgrpname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="Live category"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColor="#fff"-->
+<!--        android:textSize="20dp" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/allmusics"
+        android:layout_below="@+id/tool_profile"
+        android:layout_marginBottom="60dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+
+        android:fadeScrollbars="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

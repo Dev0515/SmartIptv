@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search1"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/vieww"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_view_module_black_24dp"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/vieww1"
+        android:orderInCategory="300"
+        android:title="User"
+        android:visible="false"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        app:showAsAction="ifRoom"></item>
+</menu>
